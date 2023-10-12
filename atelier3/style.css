@@ -1,0 +1,77 @@
+*{
+    color:whitesmoke;
+    
+}
+.container{
+    display: flex;
+    gap: 20px;
+    height: 300px;
+    padding-top: 80px;
+
+}
+.container2{
+    display: flex;
+    gap: 20px;
+}
+img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+}
+.intro{
+  
+    display:flex;
+    gap: 10px;
+    margin: 10px;
+}
+h2{
+    
+    opacity: 0.5;
+}
+p{
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+#opa{
+    margin: 10px;
+    opacity: 0.7;
+}
+.daniel{
+    background-color:blueviolet;
+    height: 300PX;
+    width:800px;
+    border-radius: 20px;
+    z-index: 1;
+}
+.icon{
+    position: absolute;
+    z-index:-1;
+    margin-left: 600px;
+    height: 150px;
+    width: 100px;
+}
+.jonathan{
+    background-color: darkblue;
+    border-radius: 20px;
+    height: 300px;
+    width:400px;
+}
+.kira{
+    background-color:grey;
+    border-radius: 20px;
+    width: 400px;
+    height: 600px;
+}
+.jeanette{
+    background-color: gray;
+    border-radius: 20px ;
+    width: 400px;
+    height: 279px;
+}
+.patrick{
+    background-color: black;
+    border-radius: 20px;
+    height: 279px;
+    width: 800px;
+}
