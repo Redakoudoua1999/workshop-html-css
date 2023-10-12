@@ -1,0 +1,91 @@
+body{
+    background-color:whitesmoke;
+}
+.main{
+    margin-top: 110px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    grid-template-areas: 
+    " container "
+    " container2 ";
+    gap: 120px;
+}
+.container{
+    grid-area: container;
+    display: flex;
+    justify-content: center;
+    
+}
+.L1{
+    background-color: gainsboro;
+    display: flex;
+    margin-left: 100px;
+    gap: 10px;
+    border-radius: 20px;
+    width:  450px;
+    
+}
+.L2{
+    background-color: gainsboro;
+    display: flex;
+    margin-left: 120px;
+    gap: 10px;
+    border-radius: 20px;
+    width:  450px;
+}
+.L3{
+    background-color: gainsboro;
+    display: flex;
+    margin-left: 150px;
+    gap: 10px;
+    border-radius: 20px;
+    width:  450px;
+}
+.container2{
+    grid-area: container2;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.colton{
+    width: 300px;
+    height: 200px;
+    background-color:rebeccapurple;
+    border-radius: 20px;
+    color: aliceblue;
+}
+.irene{
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+    background-color: rebeccapurple;
+    border-radius: 20px;
+    color: aliceblue;
+}
+.anne{
+    margin-top: 40px;
+    width: 300px;
+    height: 200px;
+    background-color: rebeccapurple;
+    border-radius: 20px;
+    color: aliceblue;
+    
+}
+.profilname{
+    display: flex;
+    gap: 10px;
+}
+.profil{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+}
+img{
+    margin-top: 15px;
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+
+}
