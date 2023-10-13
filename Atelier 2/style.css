@@ -1,0 +1,32 @@
+body{
+    background-color: darkblue;
+    
+}
+.main{
+    display:flex;
+    justify-content: center;
+    margin-top: 320px;
+    gap: 20px;
+}
+.container{
+    width: 250px;
+    background-color: #050568;
+    height: 200px;
+    border-radius: 10% 50% 10% 10%;
+    
+    
+}
+.container2{
+    width: 600px;
+    background-color: #050568;
+    height: 200px;
+    border-radius: 5% 50% 5% 5%;
+    
+}
+.left{
+    height: 40px;
+}
+.GB{
+    display: flex;
+    justify-content: space-between;
+}
